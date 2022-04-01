@@ -1,3 +1,12 @@
+# Clone Reopsitory
+
+Clone the repository by execute the below command : 
+https://github.com/muntaserabuthaher/xngage-front-end-test.git
+
+inside file path execute this command 
+npm install 
+
+
 # Task
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.2.0.

@@ -1,9 +1,11 @@
 # Clone Reopsitory
 
-Clone the repository by execute the below command : 
+* Clone the repository by execute the below command 
+
 https://github.com/muntaserabuthaher/xngage-front-end-test.git
 
-inside file path execute this command 
+* inside file path execute this command 
+
 npm install 
 
 

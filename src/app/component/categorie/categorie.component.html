@@ -1,0 +1,7 @@
+<section [ngStyle]="{background:getBackground()}" id="{{category.name}}">
+    <div class="container">
+        <br>
+        <h2 [ngStyle]="{'color':getColor()}">{{getTitle() | titlecase }}</h2>
+        <app-carousel [categoryName]="category.name" [isDark]="isDark"></app-carousel>
+    </div>
+</section>

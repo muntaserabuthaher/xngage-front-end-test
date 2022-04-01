@@ -1,0 +1,28 @@
+<p-dialog [(visible)]="displayBasic" [style]="{width: '500px'}" [baseZIndex]="10000">
+    <div class="d-flex justify-content-center my-2">
+        <img src="../../../assets{{book.image}}" class="w-25" />
+    </div>
+
+    <table class="w-100">
+        <tr>
+            <th>Title:</th>
+            <td>{{book.title}}</td>
+        </tr>
+        <tr>
+            <th>Author:</th>
+            <td>{{book.author}}</td>
+        </tr>
+        <tr>
+            <th>Reviewed By:</th>
+            <td>{{book.reviewedBy}}</td>
+        </tr>
+        <tr>
+            <th>Published On:</th>
+            <td>{{book.publishedOn}}</td>
+        </tr>
+        <tr>
+            <th>Description:</th>
+            <td>{{book.description}}</td>
+        </tr>
+    </table>
+</p-dialog>

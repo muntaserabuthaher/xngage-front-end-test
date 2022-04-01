@@ -1,0 +1,15 @@
+<p-carousel [value]="products" styleClass="custom-carousel" [numVisible]="5" [numScroll]="1" [circular]="true" [responsiveOptions]="responsiveOptions">
+    <ng-template let-product pTemplate="item">
+        <div class="product-item">
+            <div class="product-item-content">
+                <div (click)="onSelectBook(product.id)">
+                    <img src="../../../assets{{product.image}}" alt="{{product.image}}" class="carousel-img" />
+                    <p class="book-title" [ngStyle]="{'color':getTitleColor()}">{{product.title}}</p>
+                    <p class="book-owners" [ngStyle]="{'color':getAuthColor()}">BY {{product.author | uppercase}}</p>
+                    <p class="book-owners" [ngStyle]="{'color':getAuthColor()}">REVIEWED BY {{product.reviewedBy | uppercase}}</p>
+                </div>
+            </div>
+        </div>
+    </ng-template>
+</p-carousel>
+<app-dialog [id]="bookId" *ngIf="this.bookId"></app-dialog>

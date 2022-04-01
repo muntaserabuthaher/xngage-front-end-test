@@ -2,11 +2,11 @@
 
 Clone the repository by execute the below command 
 
-https://github.com/muntaserabuthaher/xngage-front-end-test.git
+`https://github.com/muntaserabuthaher/xngage-front-end-test.git`
 
 inside file path execute this command 
 
-npm install 
+`npm install`
 
 
 # Task

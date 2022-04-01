@@ -2,7 +2,7 @@
 
 Clone the repository by execute the below command 
 
-`https://github.com/muntaserabuthaher/xngage-front-end-test.git`
+`git clone https://github.com/muntaserabuthaher/xngage-front-end-test.git`
 
 Inside file path execute this command 
 
